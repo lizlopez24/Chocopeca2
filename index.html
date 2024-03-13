@@ -8,11 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="keywords" content="chocolate, pastel, personalizado">    
     <link rel="icon" href="assets/imagenes/LogoChocoPeca.png">
+    <link rel="stylesheet" href="styles.css">
     <title>Chocopeca</title>
     <style>
-        iframe{
-            width: 100%;
-            height: 100vh;
+        .container,.row{
+            justify-content: center;
+            align-items: center;
+            text-align: center;      
         }
     </style>
 </head>
@@ -42,10 +44,10 @@
                   <div class="hidden sm:ml-6 sm:block">
                     <div class="flex space-x-4">
                       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                      <a href="home.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" target="navegacion">Home</a>
-                      <a href="nosotros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" target="navegacion">Nosotros</a>
-                      <a href="contactos.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" target="navegacion">Contáctanos</a>
-                      <a href="carrito.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" target="navegacion">Carrito</a>
+                      <a href="index.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+                      <a href="nosotros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Nosotros</a>
+                      <a href="contactos.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contáctanos</a>
+                      <a href="carrito.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Carrito</a>
                     </div>
                   </div>
                 </div>
@@ -55,19 +57,66 @@
             <div class="sm:hidden" id="mobile-menu">
               <div class="space-y-1 px-2 pb-3 pt-2">
                 
-                <a href="home.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page" target="navegacion">Home</a>
-                <a href="nosotros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" target="navegacion">Nosotros</a>
-                <a href="contactos.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" target="navegacion">Contáctanos</a>
-                <a href="carrito.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" target="navegacion">Carrito</a>
+                <a href="index.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
+                <a href="nosotros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Nosotros</a>
+                <a href="contactos.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contáctanos</a>
+                <a href="carrito.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Carrito</a>
               </div>
             </div>
           </nav>
     </header>    
     <main>
-        <iframe src="home.html" frameborder="0" name="navegacion"></iframe>        
-    </main>
-    <footer></footer>
-
+      <h2 style="font-weight: bold; font-size: x-large;">Diseño de pasteles y escultura de chocolate a tu gusto</h2>
+      <div class="container">
+      <div class="row">
+      <section class="col col-md-6">
+          <img src="assets/imagenes/LogoChocoPeca.png" alt="" style="width: 80%;">  
+          <h5 style="font-size: large; font-weight: bold;">Hacemos tus sueños realidad...</h5> 
+          <h5 style="font-size: large; text-align: end; font-weight: bold;">Puedes personalizarlo como quieras.</h5> 
+      </section>
+      <section class="col col-md-6">
+          <div class="row">
+              <div class="column">
+                  <img src="https://i.pinimg.com/736x/bd/ea/2d/bdea2d4e1f4d85b8ffaab0613402ef2d.jpg" alt="">
+                  <img src="https://laroussecocina.mx/wp-content/uploads/2018/04/pastel-red-velvet.jpg" alt="">
+                  <img src="https://re.i.uol.com.br/album/chocolat_week_f_002.jpg" alt="">
+                  <img src="assets/imagenes/chocolateelleno.jpeg" alt="">
+              </div>
+              <div class="column" style="margin-top: 5%;">
+                  <img src="https://i.pinimg.com/236x/01/a1/81/01a1817de0fe78d0d9851049b81023af.jpg" alt="">
+                  <img src="https://aprende.com/wp-content/uploads/2021/12/pasteles-para-ninos-decoraciones-unicas.jpg" alt="">
+                  <img src="https://i.pinimg.com/736x/2a/6f/50/2a6f50a44017b3cd9fbcdcf6abc18bba.jpg" alt="">
+              </div>
+              
+              <div class="column">
+                  <img src="https://i.pinimg.com/236x/c3/ae/15/c3ae15b241666ad93813f89c006a237f.jpg" alt="">
+                  <img src="https://i.pinimg.com/550x/97/9e/bb/979ebb3c205d8c6ddaa82307a8e64b7e.jpg" alt="">
+                  <img src="https://i.pinimg.com/222x/5c/96/9b/5c969b2ec13ca148e81dd48560392424.jpg" alt="">
+              </div>
+          </div>
+      </section>      
+  </div>
+      <section>
+          <h2 style="font-weight: bold; font-size: x-large;">Conoce nuestra receta estrella de la semana</h2>
+          <div class="container">
+              <div class="row">
+              <div class="col col-md-6">
+                  <iframe width="500" height="315" src="https://www.youtube.com/embed/4lNC8EbwkXg?si=tG1NM8F2WgkgRZX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="col col-md-5">
+                  <p>
+                      Este pastel es un clásico de chocopeca, el tiempo que te demorarás en realizar este receta será de 2 horas, que contempla su elaboración, horneado y decoración. Obtendras un sabor increible.
+                  </p>
+              </div>
+          </div>
+          </div>
+      </section>
+  </div>
+  <footer>
+    <div class="fin">
+    <iframe src="fin.html" frameborder="0"></iframe>
+  </div>
+</footer>
+  </main>
 </body>
-
 </html>

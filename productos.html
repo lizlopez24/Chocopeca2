@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/scripts/script.js"></script>
+    <script src="styles.css"></script>
+</head>
+<body>
+    <main>          
+        <section class="container">
+            <table>
+                <colgroup>
+                    <col style="width: 30%;"> 
+                    <col style="width: 50%;"> 
+                    <col style="width: 50%;"> 
+                  </colgroup>
+                <tr>
+                    <th colspan="3";">CHOCOBOMBAS</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id8.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Set de 4 chocobombas para derretir en lecha de: Moca, amareto, vainilla y fresa</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button type="button" class="btn btn-primary" id="chocobombas" onclick="agregarProducto('1','ChocoBombas',8)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$8</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id9.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Taza personalizada con la temática elegida y chocobomba con el sabor a elección</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="jarroChocobomba" onclick="agregarProducto('2','Jarro con Chocobomba',10.50)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$10.50</td>
+                </tr>
+                <tr>
+                    <th colspan="4";">REGALITOS RELLENOS</th>
+                  </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id6.png" alt="" width="125">
+                    </td>
+                    <td>
+                        <p>Jarro grande de muñeco de nieve relleno con: 4 chocolates de diferente relleno, 2 galletas de limon, 2 galletas de chispas de chocolate, 1 paleta crocante de chocolate blanco, 1 paleta crocante de chocolate negro y 1 manicho</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="jarroMuñeco" onclick="agregarProducto('3','Jarro de Muñeco de nieva',11.80)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$11.80</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id7.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Caramelero relleno con: 8 chocolates de diferente relleno, 2 galletas de limon, 2 galletas de chispas de chocolate, 1 paleta crocante de chocolate blanco, 1 paleta crocante de chocolate negro, 1 manicho y 1 tango de ron</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="caramelero" onclick="agregarProducto('4','Caramelero',15.25)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$15.25</td>
+                </tr>
+                <tr>
+                    <th colspan="4";">PASTELES PERSONALIZADOS</th>
+                  </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id1.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Pastel de un 1 piso, con temática elegida, cubierto de crema chantilly, que alcanza de 10 a 15 porciones</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                    <section>
+                        <div>
+                            <button id="pastel1" onclick="agregarProducto('5','Pastel 1',15)">+Agregar</button>
+                        </div>
+                    </section>
+                </td>
+                </tr>
+                <tr>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id2.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Pastel de 2 pisos, con temática elegida, cubierto de crema chantilly o fondant, que alcanza de 15 a 30 porciones</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="pastel2" onclick="agregarProducto('6','Pastel 2',25)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id4.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Pastel de 4 pisos, con temática elegida, cubierto de crema chantilly o fondant, que alcanza de 40 a 60 porciones</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="pastel4" onclick="agregarProducto('7','Pastel 4',50)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="/assets/imagenes/id5.png" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Pastel personalizado a su elección, con cualquier temática, cubierto de crema chantilly o fondant, relleno según la estructura deseada y mínimo 60 porciones</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="pastelPersonalizado" onclick="agregarProducto('8','Pastel Personalizado',120)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$120</td>
+                </tr>
+                <tr>
+                    <th colspan="4";">ESCULTURAS DE CHOCOLATE</th>
+                  </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="https://i.pinimg.com/550x/97/9e/bb/979ebb3c205d8c6ddaa82307a8e64b7e.jpg" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Escultura en forma de corazón, decorada con esferas de chocolate blanco y negro, y rellenas de mouse de frutos rojos </p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="esculturaCorazon" onclick="agregarProducto('9','Escultura de chocolate de corazón',65)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$65</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="https://re.i.uol.com.br/album/chocolat_week_f_002.jpg" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Escultura de chocolate con detalles personalizados a su gusto, decorado con esferas rellenas de mouse de sabor a elección</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="esculturaBambu" onclick="agregarProducto('10','Escultura de chocolate con forma de bambú',98)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$98</td>
+                </tr>
+                <tr>
+                    <th colspan="4";">ESPECIALIDAD DE LA CASA</th>
+                  </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="assets/imagenes/chocolateelleno.jpeg" alt="" width="150">
+                    </td>
+                    <td>
+                        <p>Postre cubierto de chocolate, con decoraciones de oro comestible, mermelada de frutos rojos y relleno sabor repe lojano</p>
+                    </td>
+                    <td rowspan="2" style="justify-content: center; text-align: center;">
+                        <section>
+                            <div>
+                                <button id="postreRepe" onclick="agregarProducto('11','Postre de Repe',18)">+Agregar</button>
+                            </div>
+                        </section>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$18</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
